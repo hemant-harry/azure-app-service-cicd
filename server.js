@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
 <body>
   <div class="card">
     <span class="badge">Application is running</span>
-    <h1>Hello from Node.js on Azure App Service!</h1>
+    <h1>Hello from Node.js on Azure App Service in Azure CICD</h1>
     <p>Your ZIP deployment worked if you can see this page.</p>
     <p><strong>Runtime:</strong> Node.js</p>
     <p><strong>Path:</strong> ${req.url}</p>
