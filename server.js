@@ -43,7 +43,7 @@ const server = http.createServer((req, res) => {
 <body>
   <div class="card">
     <span class="badge">Application is running</span>
-    <h1>${appName} - CI/CD Pipeline Test</h1>
+    <h1>${appName} - Version 2</h1>
     <p><strong>Environment:</strong> ${appEnv}</p>
     <p><strong>Runtime:</strong> Node.js</p>
     <p><strong>Path:</strong> ${req.url}</p>
